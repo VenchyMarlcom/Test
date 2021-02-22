@@ -1,0 +1,53 @@
+
+{% load static %}
+<html>
+<head>
+
+<!--Test Title -->
+
+<title>Gift landing Page Test</title>  
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<!--Load all CSS -->
+
+<link rel="stylesheet" href="{%static 'css/style.css' %}">
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+<link rel="stylesheet" href="{% static 'font-awesome-4.7.0/css/font-awesome.min.css' %}">
+
+<!--End CSS loading -->
+
+</head>
+<body>
+
+<!--Start Header -->
+
+{% block header %}   
+
+{% endblock%}
+
+<!--End header -->
+ 
+<!--Start Mid content -->
+
+{% block mid_content %}
+
+{% endblock %}
+
+<!--End mid content -->
+
+<!--Start Comfort block -->
+
+{% block comfort %}
+
+{% endblock %}
+
+<!--End Comfort block -->
+
+<!--Load all javascript -->
+
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+
+<!--End Javascript Loading -->
+</body>
+</html>

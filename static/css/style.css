@@ -1,0 +1,179 @@
+*
+{
+    padding: 0;
+    margin: 0;
+}
+.navbar-brand img
+{
+    width:140px;
+}
+.navbar-brand
+{
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    top: 10PX;
+}
+.navbar
+{
+ 
+   padding: 1em 10em !important; 
+}
+.navbar-toggler
+{
+    border: none !important;
+    outline: none !important;
+}
+.banner
+{
+ 
+}
+.home-header
+{
+    background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url("{% static 'images/image.jpg' %}");
+    background-position: center;
+    background-size: cover;
+    height:500px;
+}
+.banner-text
+{
+    font-size: 36px;
+    color: #fff;
+    text-align: center;
+    padding-top: 50px;
+    padding-top: 50px;
+    
+}
+.banner-text .btn-primary
+{
+    background-image: linear-gradient(to right, #3636f3,#be43f1);
+    border: none !important;
+    box-shadow: none !important;
+    font-size: 12px;
+    padding: 15px 30px;
+    margin-top: 10px;
+}
+
+.nav-item{
+    margin-right: 3rem !important;
+}
+
+.explore_line{
+    min-height: 80px;
+    border-left: 3px solid black;
+    margin-left: 50%;
+}
+.explore{
+    margin-top:16%;
+    text-align:center;
+    align-items: center;
+}
+.top_text{
+    margin-top:100px;
+    text-align: center;
+    padding:0 10rem;
+}
+.top_text_header{
+    margin-top:50px;
+    text-align: center;
+    padding:0 10rem;
+}
+
+.container{
+    padding:0 10em
+}
+
+.top_text_content{
+    font-size: 20px;
+    text-align: center;
+    
+}
+.products{
+   padding:1rem 5rem;
+   column-gap: 20px;
+}
+.product1{
+    height:400px;
+    background-color: grey;
+}
+.product11{
+    height:300px;
+    background-color: grey;
+    
+}
+.product2{
+    height:400px;
+    background-color: skyblue;
+}
+.product22{
+    height:300px;
+    background-color: skyblue;
+}
+.product33{
+    height:300px;
+    background-color: grey;
+}
+
+.product_title{
+    background-color:white;
+    margin-top:65%;
+    margin-left:30%;
+    width:200px;
+    text-align:center;
+    padding:0.5rem;
+
+}
+
+.product_info{
+   padding-top:0.4rem;
+
+}
+.availability{
+    font-size: 10px;
+    font-weight: lighter;
+    color: gray;
+}
+
+.sub_info{
+    font-weight: lighter;
+}
+
+.confort{
+    background-color:gainsboro;
+    min-height: 200px;
+    padding:0;
+}
+
+.confort_text{
+    text-align:center;
+    padding-top: 2%;
+    font-size: 20px;
+    font-style: italic;
+    font-weight: bold;
+}
+
+.contents_confort{
+    text-align:center
+}
+
+.featured_comfort{
+    padding:3rem 10rem;
+}
+
+.fa-star{
+    font-size:30px !important;
+}
+
+.confort_title{
+    font-weight:bold;
+    margin-top:10px;
+}
+
+.fa{
+    color: gray;
+    margin-top:12px;
+}
+
+
+
+
